@@ -7,6 +7,13 @@ body {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+#main {
+    background-image: url(/images/pizza-background.jpg);
+    background-size: 150%;
+    display: flex;
+    width: auto;
+}
+
 .floating-btn {
 	position: fixed;
 	bottom: 20px;
@@ -34,19 +41,32 @@ body {
         align-items: center;
     }
 
-    img {
+    #pizza-logo {
         max-width: 150px;
         max-height: 150px;
     }
 
-    .p-header {
+    #main {
+        height: 2000px;
+    }
+
+    #p-header {
         color: rgb(251, 253, 97);
         padding: 3%;
         padding-bottom: 6%;
-        font-size: 20px;
+        font-size: 23px;
         font-weight: 540;
+        text-align: center;
     }
     
+    #block1 {
+        
+    }
+
+    #block2 {
+
+    }
+
 }
 
 @media (min-width: 800px) {
@@ -58,12 +78,12 @@ body {
         justify-content: center;
     }
 
-    img {
+    #pizza-logo {
         max-width: 175px;
         max-height: 175px;
     }
 
-    .p-header {
+    #p-header {
         color: rgb(251, 253, 97);
         padding: 0;
         padding-left: 5%;
