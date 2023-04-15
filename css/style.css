@@ -41,6 +41,10 @@ header {
     background-color: #FFC83C;
 }
 
+#cooking-pizza {
+    background-size: contain ;
+}
+
 #full-pizza {
     background-size: contain ;
 }
@@ -75,7 +79,10 @@ header {
 
 footer {
     display: flex;
-    background-color: rgb(0, 87, 0)
+    background-color: rgb(0, 87, 0);
+    position: sticky;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #p-footer {
@@ -104,7 +111,7 @@ footer {
     }
     
     #main {
-        height: 2700px;
+        height: 2600px;
     }
 
     #block0 {
@@ -112,8 +119,7 @@ footer {
         justify-content: center;
         align-items: center;
         max-width: 750px;
-        /*max-height: 42%;*/
-        max-height: 50rem;
+        max-height: 40rem;
         margin: 6%;
         border-radius: 40px;
         -webkit-border-radius: 40px;
@@ -122,12 +128,15 @@ footer {
         -o-border-radius: 40px;
     }
 
+    #cooking-pizza {
+        max-width: 85% ;
+    }
+
     #block1 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         max-width: 750px;
-        /*max-height: 42%;*/
         max-height: 50rem;
         margin: 6%;
         border-radius: 40px;
@@ -146,7 +155,6 @@ footer {
         justify-content: center;
         align-items: center;
         max-width: 750px;
-        /*max-height: 42%;*/
         max-height: 51rem;
         margin: 6%;
         border-radius: 40px;
@@ -167,9 +175,6 @@ footer {
     }
 
     footer {
-        position: sticky;
-        flex-direction: column;
-        justify-content: center;
         width: auto;
         height: 250px;
     }
@@ -201,6 +206,179 @@ footer {
         padding-left: 5%;
         font-size: 50px;
         font-weight: 540;
+    }
+
+    #main {
+        height: 2500px;
+    }
+
+    #block0 {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        max-height: 36rem;
+        margin: 6%;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    #cooking-pizza {
+        max-width: 50% ;
+    }
+
+    #block1 {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        max-height: 50rem;
+        margin: 6%;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    #full-pizza {
+        max-width: 50% ;
+        order: 2;
+    }
+
+    #left-text {
+        order: 1;
+    }
+
+    #block2 {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        max-height: 40rem;
+        margin: 6%;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+}
+
+    #pizza-slice {
+        max-width: 50% ;
+    }
+
+    .p-block {
+        text-align: center;
+        font-size: 2.6rem;
+        padding: 3%;
+    }
+
+    #p-footer {
+        font-size: 2rem;
+        padding: 5%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    header {
+        background-color: rgb(0, 87, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #pizza-logo {
+        max-width: 175px;
+        max-height: 175px;
+    }
+
+    #p-header {
+        color: rgb(251, 253, 97);
+        padding: 0;
+        padding-left: 5%;
+        font-size: 50px;
+        font-weight: 540;
+    }
+
+    #main {
+        height: 2600px;
+    }
+
+    #block0 {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        max-height: 40rem;
+        margin: 6%;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    #cooking-pizza {
+        max-width: 50% ;
+    }
+
+    #block1 {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        max-height: 45em;
+        margin: 6%;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    #full-pizza {
+        max-width: 50% ;
+        order: 2;
+    }
+
+    #left-text {
+        order: 1;
+    }
+
+    #block2 {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        max-height: 40rem;
+        margin: 6%;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+}
+
+    #pizza-slice {
+        max-width: 50% ;
+    }
+
+    .p-block {
+        text-align: center;
+        font-size: 2.6rem;
+        line-height: 50px;
+        padding: 5%;
+    }
+
+    #p-footer {
+        font-size: 2rem;
+        padding: 5%;
     }
 
 }
