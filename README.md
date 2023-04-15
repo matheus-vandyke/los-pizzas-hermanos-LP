@@ -3,7 +3,7 @@
 Esse é um porjeto simples de Landing Page que fiz para praticar mias html, css e flexbox. / This is a simple landing page project just to practice more html, css and flexbox.
 
 
-![repositório](https://img.shields.io/github/repo-size/matheus-vandyke/saturno-fenix-poesias-blog) ![forks](https://img.shields.io/github/forks/matheus-vandyke/saturno-fenix-poesias-blog?style=social)
+![repositório](https://img.shields.io/github/repo-size/matheus-vandyke/los-pizzas-hermanos-LP) ![forks](https://img.shields.io/github/forks/matheus-vandyke/los-pizzas-hermanos-LP?style=social)
 
 ## Contato / Contact
 
@@ -11,7 +11,7 @@ Pode entrar em contato pelo email: matheusvandyke333@gmail.com. / You can contac
 
 ## Site Hospedado / Hosted Website
 
-https://matheus-vandyke.github.io/saturno-fenix-poesias/index.html
+https://matheus-vandyke.github.io//los-pizzas-hermanos-LP/index.html
 
 ## Licença / License
 
