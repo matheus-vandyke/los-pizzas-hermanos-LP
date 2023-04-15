@@ -1,5 +1,6 @@
 body {
     font-family: 'Bebas Neue', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -22,16 +23,22 @@ header {
     width: auto;
 }
 
-#block1 {
+#block0 {
     display: flex;
     flex: 1;
     background-color: #FFC83C;
 }
 
-#block2 {
+#block1 {
     display: flex;
     flex: 1;
     background-color: #FF9E2C;
+}
+
+#block2 {
+    display: flex;
+    flex: 1;
+    background-color: #FFC83C;
 }
 
 #full-pizza {
@@ -80,23 +87,39 @@ footer {
 
     header {
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
     #pizza-logo {
         max-width: 150px;
         max-height: 150px;
+        padding: 2%;
     }
 
     #p-header {
         padding: 3%;
-        padding-bottom: 6%;
-        font-size: 30px;
+        font-size: 2rem;
         font-weight: 400;
     }
     
     #main {
-        height: 1900px;
+        height: 2700px;
+    }
+
+    #block0 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 750px;
+        /*max-height: 42%;*/
+        max-height: 50rem;
+        margin: 6%;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
     }
 
     #block1 {
@@ -118,12 +141,6 @@ footer {
         max-width: 85% ;
     }
 
-    .p-block {
-        text-align: center;
-        font-size: 200%;
-        padding: 5%;
-    }
-
     #block2 {
         flex-direction: column;
         justify-content: center;
@@ -143,13 +160,22 @@ footer {
         max-width: 85% ;
     }
 
+    .p-block {
+        text-align: center;
+        font-size: 2rem;
+        padding: 5%;
+    }
+
     footer {
+        position: sticky;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 250px;
     }
 
     #p-footer {
-        font-size: 150%;
+        font-size: 1.7rem;
         padding: 5%;
     }
 
