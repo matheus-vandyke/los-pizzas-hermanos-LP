@@ -11,7 +11,7 @@ Pode entrar em contato pelo email: matheusvandyke333@gmail.com. / You can contac
 
 ## Site Hospedado / Hosted Website
 
-https://matheus-vandyke.github.io//los-pizzas-hermanos-LP/index.html
+https://matheus-vandyke.github.io/los-pizzas-hermanos-LP/index.html
 
 ## Licença / License
 
