@@ -15,4 +15,4 @@ https://matheus-vandyke.github.io/los-pizzas-hermanos-LP/index.html
 
 ## Licença / License
 
-O Código desse site é aberto e licenciado sob a licença Apache v2. / The code on this website is open and licensed under the Apache v2 License
+O Código desse site é aberto e licenciado sob a licença Apache v2. / The code on this website is open source and licensed under the Apache v2 License
